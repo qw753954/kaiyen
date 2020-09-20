@@ -11650,7 +11650,7 @@ a {
 }
 
 .ring {
-  width: 100px;
+  width: 80px;
   animation: shake 0.5s infinite linear alternate;
 }
 @media (max-width: 767.98px) {
