@@ -11495,10 +11495,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-html {
-  overflow-y: overlay;
-}
-
 ::selection {
   background: #8d8d8d;
   color: white;
@@ -11578,6 +11574,9 @@ a {
   .work {
     width: 100%;
   }
+  .work .sort img {
+    width: 500px;
+  }
 }
 
 .mask {
@@ -11617,7 +11616,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .mask:hover span {
-    transform: translateX(-150px);
+    transform: translateX(-120px);
   }
 }
 .mask:hover::before, .mask:hover::after {
@@ -11627,8 +11626,12 @@ a {
 }
 @media (max-width: 991.98px) {
   .mask:hover::before, .mask:hover::after {
-    transform: translateX(180px);
+    transform: translateX(150px);
   }
+}
+
+html {
+  overflow-y: overlay;
 }
 
 .contact {

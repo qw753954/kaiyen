@@ -8,7 +8,11 @@
     }
     @include media-breakpoint-down(lg){
         width: 100%;
-
+        .sort{
+            img{
+                width: 500px;
+            }
+        }
     }
 }
 
@@ -46,7 +50,7 @@
         transform: translateX(-200px);
         transition: .7s;
         @include media-breakpoint-down(md){
-            transform: translateX(-150px);
+            transform: translateX(-120px);
         }
     }
     &:hover::before,&:hover::after{
@@ -54,7 +58,7 @@
         transform: translateX(230px);
         transition: .7s;
         @include media-breakpoint-down(md){
-            transform: translateX(180px);
+            transform: translateX(150px);
         }
     }
 }
