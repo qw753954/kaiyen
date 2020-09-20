@@ -148,7 +148,7 @@ $spacers: map-merge(
     6: ($spacer * 2.5), //40
     7: ($spacer * 3),  //48
     8: ($spacer * 4.25), //64
-    9: ($spacer * 8), //128
+    9: ($spacer * 8) //128
   ),
   $spacers
 );
@@ -280,7 +280,7 @@ $embed-responsive-aspect-ratios: join(
 // Font, line-height, and color for body text, headings, and more.
 
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, 'Raleway', "Segoe UI",  "Microsoft JhengHei", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, 'Raleway', "Segoe UI", "SimSun", "Microsoft JhengHei", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
@@ -313,7 +313,7 @@ $headings-color:              null !default;
 
 $display1-size:               6rem !default;
 $display2-size:               5.5rem !default;
-$display3-size:               4.5rem !default;
+$display3-size:               3.5rem !default;
 $display4-size:               3rem !default;
 
 $display1-weight:             300 !default;

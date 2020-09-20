@@ -6,19 +6,21 @@
         line-height: 2rem;
         letter-spacing: 1.5px;        
     }
-    span{
-        letter-spacing: 12px;
+    ul{
+        text-align: justify;
     }
-    .editVid{
-        transform: rotate(-10deg);
+    li{
+        letter-spacing: 1rem;
+        writing-mode: vertical-lr;
     }
     @include media-breakpoint-down(lg){
         width: 100%;
         ul{
-            flex-wrap: wrap;
             font-size: 20px;
+            flex-wrap: wrap;
         }
-        span{
+        li{
+            writing-mode: initial;
             letter-spacing: 6px;
         }
     }
