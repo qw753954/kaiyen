@@ -1,0 +1,19 @@
+.menu {
+    width: 28%;
+    height: 100vh;
+    .active{
+        -webkit-text-stroke: 1px #444;
+    }
+    li:hover{
+        transform: translateX(15px);
+        transition: all .6s;
+    }
+    @include media-breakpoint-down(sm){
+        width: 100%;
+        ul{
+            text-align: center;
+        }
+    }
+}
+
+

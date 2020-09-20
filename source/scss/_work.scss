@@ -1,0 +1,60 @@
+.work{
+    width: 72%;
+    .sort{
+        position: relative;
+        img{
+            width: 680px;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        width: 100%;
+
+    }
+}
+
+.mask{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    span{
+        color: white;
+    }
+    &::before {
+        content: '';
+        background-color: #fff;
+        height: 30px;
+        width: 2px;
+        position: absolute;
+        opacity: 0;
+    }
+    &::after {
+        content: '';
+        background-color: #fff;
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        opacity: 0;
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, .5);
+        transition: .7s;
+    }
+    &:hover span{
+        color: white;
+        transform: translateX(-200px);
+        transition: .7s;
+        @include media-breakpoint-down(md){
+            transform: translateX(-150px);
+        }
+    }
+    &:hover::before,&:hover::after{
+        opacity: 1;
+        transform: translateX(230px);
+        transition: .7s;
+        @include media-breakpoint-down(md){
+            transform: translateX(180px);
+        }
+    }
+}

@@ -1,0 +1,12 @@
+html {
+    overflow-y: overlay;
+}
+
+::selection {
+    background: #8d8d8d;
+    color: white;
+}
+
+a{
+    display: block;
+}
