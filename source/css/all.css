@@ -11550,7 +11550,6 @@ a {
   }
   .about ul {
     font-size: 20px;
-    flex-wrap: wrap;
   }
   .about li {
     writing-mode: initial;
