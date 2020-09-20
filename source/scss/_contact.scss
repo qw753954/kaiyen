@@ -15,10 +15,10 @@
 }
 
 .ring{
-    width: 80px;
+    width: 100px;
     animation: shake .5s infinite linear alternate;
     @include media-breakpoint-down(sm){
-        width: 90px;
+        width: 80px;
     }
 }
 
