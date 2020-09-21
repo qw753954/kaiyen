@@ -6,7 +6,7 @@
             width: 680px;
         }
     }
-    @include media-breakpoint-down(lg){
+    @include media-breakpoint-down(sm){
         width: 100%;
         .sort{
             img{
@@ -50,7 +50,7 @@
         transform: translateX(-200px);
         transition: .7s;
         @include media-breakpoint-down(md){
-            transform: translateX(-120px);
+            transform: translateX(-110px);
         }
     }
     &:hover::before,&:hover::after{
@@ -58,7 +58,7 @@
         transform: translateX(230px);
         transition: .7s;
         @include media-breakpoint-down(md){
-            transform: translateX(150px);
+            transform: translateX(140px);
         }
     }
 }
